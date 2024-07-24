@@ -58,16 +58,18 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">Hello, I'm Rajat.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">experience in building scalable applications</span>. I enjoy
-        building <span className="italic">applications and platforms</span>. My focus is{" "}
-        <span className="underline">Data Analysis and ML</span>.
-      </motion.h1>
+  className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+  initial={{ opacity: 0, y: 100 }}
+  animate={{ opacity: 1, y: 0 }}
+>
+  <span className="font-bold">Hello, I'm Rajat.</span> I'm a{" "}
+  <span className="font-bold">full-stack developer</span> with{" "}
+  <span className="font-bold">experience in building scalable applications</span>. I thrive on{" "}
+  <span className="italic">creating innovative solutions</span> and am passionate about the{" "}
+  <span className="underline">impact of data and AI</span>. My work is driven by the desire to{" "}
+  <span className="italic">leverage cutting-edge technology</span> to solve real-world problems and{" "}
+  <span className="italic">enhance user experiences</span>.
+</motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
