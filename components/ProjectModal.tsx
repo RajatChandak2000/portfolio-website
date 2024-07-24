@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import ModalPortal from "./modalportal";
+import ModalPortal from "./ModalPortal";
 import { FaGithubSquare } from "react-icons/fa";
 
 // ProjectModalProps type definition

@@ -13,7 +13,7 @@ export default function Project({
   Outsidedescription,
   tags,
   imageUrl,
-  githubUrl,
+  githubLink,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -61,9 +61,9 @@ export default function Project({
               </li>
             ))}
           </ul>
-          {githubUrl && (
+          {githubLink && (
             <a
-              href={githubUrl}
+              href={githubLink}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 self-start"
@@ -101,7 +101,7 @@ export default function Project({
           description={description}
           tags={tags}
           imageUrl={imageUrl}
-          githubUrl={githubUrl}
+          githubLink={githubLink}
           closeModal={closeModal}
         />
       )}
