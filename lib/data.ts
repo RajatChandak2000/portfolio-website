@@ -148,7 +148,7 @@ export const projectsData = [
       </ul>
     `,
     tags: ["Python", "TensorFlow", "Keras", "Deep Learning", "Interpretable AI"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: "/rmtdev.png",
     githubLink: "https://github.com/RajatChandak2000/DL-Kideny-Disease-prediction"
   },
 ] as const;

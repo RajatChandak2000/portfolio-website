@@ -99,7 +99,7 @@ export default function Project({
         <ProjectModal
           title={title}
           description={description}
-          tags={tags}
+          tags={[...tags]}
           imageUrl={imageUrl}
           githubLink={githubLink}
           closeModal={closeModal}

@@ -9,7 +9,7 @@ type ProjectModalProps = {
   title: string;
   description: string;
   tags: string[];
-  imageUrl: string;
+  imageUrl: string ;
   githubLink?: string;
   closeModal: () => void;
 };
