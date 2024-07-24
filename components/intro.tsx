@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/../public/profilephoto.jpg"
+              src="/profilephoto.jpg"
               alt="Rajat Chandak portrait"
               width="340"
               height="340"
