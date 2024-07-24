@@ -18,29 +18,29 @@ export default function About() {
       id="about"
       style={{ paddingTop: "4rem" }}
     >
-
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am currently pursuing my Master of Computer Science at{" "}
-        <span className="font-medium">North Carolina State University</span>,
-        with an expected graduation date of May 2025. I hold a Bachelor of Engineering in Computer Science Engineering from{" "}
-        <span className="font-medium">Shri Ramdeobaba College of Engineering and Management</span>, Nagpur, India.
-        <span className="italic"> My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core skills include{" "}
+        Hi there! I'm Rajat, a Computer Science professional pursuing my Master's at{" "}
+        <span className="font-medium">North Carolina State University</span>, with a focus on software development and backend engineering. 
+        I'm dedicated to crafting high-quality, scalable solutions that truly make an impact. My core skills include{" "}
         <span className="font-medium">
-          Python, Java, SQL, MongoDB, AWS, and Docker
+          C/C++, Python, Java, SQL, JavaScript, React, Flask, Docker, Kubernetes, and AWS
         </span>
-        . I am also familiar with various frameworks and tools such as Selenium, React, and Flask. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">data engineer internship</span> position.
+        . I'm passionate about writing clean, efficient code and building robust backend systems to tackle complex challenges.
+      </p>
+
+      <p className="mb-3">
+        <span className="italic">What drives me</span> is the power of code to solve real-world problems and enhance user experiences. 
+        I thrive in fast-paced environments where teamwork, creative brainstorming, and problem-solving are key. 
+        I'm keen on leveraging data to drive decisions and improve systems, complementing my development skills with data-driven insights.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and learning new things. I am currently
-        enhancing my knowledge in{" "}
-        <span className="font-medium">deep learning and cloud computing</span>. I also like to keep up with the latest advancements in technology.
+        <span className="italic">Beyond coding</span>, I'm fascinated by the rapid advancement of large language models (LLMs) and AI technologies. 
+        I'm eager to be part of this technological evolution and explore its potential to drive innovation. 
+        I'm currently looking for opportunities in{" "}
+        <span className="font-medium">software development and backend roles</span> where I can apply my skills to build impactful solutions.
+        If you're interested in connecting or discussing opportunities, feel free to reach out!
       </p>
     </motion.section>
   );
